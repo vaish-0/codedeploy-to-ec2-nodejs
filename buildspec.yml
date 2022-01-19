@@ -6,7 +6,7 @@ phases:
       nodejs: 12
   build:
     commands:
-      - echo "Package & Dependicies are getting installed"
+      - echo "Packages & Dependicies are getting installed"
       - npm -f install
       - echo "Packages have been installed"
       - echo "Storing Build Artifact to the Location"
